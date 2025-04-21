@@ -16,8 +16,6 @@
     int sum = a + b;
     printf("the sum is %d\n",  sum);
 
-    #include <stdio.h>
-
     char greetings = 't';  // Assign a single character 't' (not a string)
     printf("%c", greetings);  // %c is used to print a single character
 

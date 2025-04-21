@@ -3,7 +3,7 @@
    int myNum = 5;             // Integer (whole number)
    float myFloatNum = 5.99;   // Floating point number
    char myLetter = 'D';       // Character
-   
+
    printf("%d\n", myNum);
    printf("%f\n", myFloatNum);
    printf("%c\n", myLetter);
@@ -16,5 +16,10 @@
     int sum = a + b;
     printf("the sum is %d\n",  sum);
 
+    #include <stdio.h>
+
+    char greetings = 't';  // Assign a single character 't' (not a string)
+    printf("%c", greetings);  // %c is used to print a single character
+  
     return 0;
  }
